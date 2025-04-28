@@ -3,7 +3,7 @@
 $host = "localhost"; // Database host
 $user = "root"; // Database username
 $password = ""; // Database password
-$database = "users_db"; // Database name  
+$database = "shopping"; // Database name  
 
 $conn = new mysqli($host, $user, $password, $database);
 
