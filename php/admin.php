@@ -24,4 +24,7 @@ if (!isset($_SESSION['email'])) {
             <button onclick="window.location.href='../php/logout.php'">Logout</button>
         </div>
 </body>
+
+
 </html>
+
