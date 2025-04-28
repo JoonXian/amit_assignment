@@ -3,6 +3,7 @@
 $host = "localhost"; // Database host
 $user = "root"; // Database username
 $password = ""; // Database password
+$database = "users_db";
 $database = "shopping"; // Database name
 $database = "db5"; // Database name 
 
