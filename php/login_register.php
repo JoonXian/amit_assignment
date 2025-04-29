@@ -50,9 +50,9 @@ if (isset($_POST['login'])) {
             $_SESSION['email'] = $user['email'];
 
         if ($user['role'] === 'admin') {
-                header("Location: ../php/admin.php");
+                header("Location: ../php/admintest.php");
             } else {
-                header("Location: ../php/user.php");
+                header("Location: ../html/Accessories.html");
             }
             exit(); 
         }

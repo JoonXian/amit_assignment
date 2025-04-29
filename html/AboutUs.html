@@ -2,7 +2,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us</title>
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/aboutus.css">
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,21 +17,20 @@
 <body>
 
     <header>
-        <a href="#" class="logo"><img src="../img/logo.png" alt=""></a>
+        <a href="#" class="logo"><img src="../img/logo3.png" alt=""></a>
 
         <ul class="navmenu">
             <li><a href="../html/Accessories.html">Home</a></li>
-            <li><a href="#">Shop</a></li>
-            <li><a href="#">Products</a></li>
+            <li><a href="../html/Accessories.html">Products</a></li>
             <li><a href="../html/AboutUs.html">About Us</a></li>
+            <li><a href="../html/account.php">Login</a></li>
         </ul>
 
         <div class="navicon">
             <a href="#"><i class='bx bx-search'></i></a>
-            <a href="../html/account.html"><i class='bx bx-user'></i></a>
+            <a href="../php/admintest.php"><i class='bx bx-user'></i></a>
             <a href="../php/cart.php"><i class='bx bx-cart'></i></a>
-
-            <div class="bx bx-menu" id="menu-icon"></div>
+            <a href="../html/account.php" class="btn logout-btn">Logout</a>
         </div>
     </header>
 
@@ -44,11 +43,14 @@
     
                 <div class="about-text">
                     <p>
-                        <strong>GlamourGrove</strong> was born from a love for statement pieces and the joy of accessorizing. We believe fashion should be fun, expressive, and available to everyone.
+                        <strong>Accesora</strong> was born from a love for statement pieces and the joy of accessorizing. We believe fashion should be fun, expressive, and available to everyone.
                     </p>
                     <p>
                         From dainty necklaces to bold bags, we bring you a handpicked selection of accessories to elevate any outfit.
                     </p>
+                    <blockquote class="founder-quote">
+                        “Fashion is how we tell the world who we are - without saying a word.”
+                    </blockquote>                    
                 </div>
             </div>
     
@@ -73,10 +75,12 @@
             <div class="timeline">
                 <h3>Our Journey</h3>
                 <ul>
-                    <li><strong>2021:</strong> The spark of an idea.</li>
-                    <li><strong>2022:</strong> Online store launched with our first 50 products.</li>
-                    <li><strong>2023:</strong> Hit 10k happy customers and counting!</li>
-                    <li><strong>Today:</strong> Continuing to provide more satisfaction to our customers!</li>
+                    <ul>
+                        <li><i class='bx bx-bulb'></i><strong> 2021:</strong> The spark of an idea.</li>
+                        <li><i class='bx bx-store'></i><strong> 2022:</strong> Store launched.</li>
+                        <li><i class='bx bx-happy'></i><strong> 2023:</strong> 10k happy customers!</li>
+                        <li><i class='bx bx-trending-up'></i><strong> Today:</strong> Still growing.</li>
+                    </ul>                    
                 </ul>
             </div>
         </div>

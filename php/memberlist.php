@@ -7,9 +7,11 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css">
 </head>
 <body>
+
     <div class="container my-5">
         <h2>List of Members</h2>
         <a class="btn btn-primary" href="../php/create.php" role="button">New Member</a>
+        <a class="btn" href="../html/Accessories.html">← Back to Home</a>
         <br>
         <table class="table">
             <thead>

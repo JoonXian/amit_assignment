@@ -3,11 +3,10 @@
 $host = "localhost"; // Database host
 $user = "root"; // Database username
 $password = ""; // Database password
-$database = "users_db";
+$database1 = "users_db"; // Database name
 $database = "shopping"; // Database name
-$database = "db5"; // Database name 
 
-$conn = new mysqli($host, $user, $password, $database);
+$conn = new mysqli($host, $user, $password, $database1);
 
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);

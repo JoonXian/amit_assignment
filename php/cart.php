@@ -11,6 +11,8 @@ $products = [
     6 => "Chic Handbag",
     7 => "Heart Collier Necklace",
     8 => "Delicate Necklace",
+    9 => "Bunny Keychain",
+    10 => "Earrings Set",
 
     // Add more here if you want
 ];
@@ -97,7 +99,7 @@ if (isset($_POST['checkout'])) {
 <body>
 
 <header>
-    <a href="#" class="logo"><img src="../img/logo.png" alt=""></a>
+    <a href="#" class="logo"><img src="../img/logo3.png" alt=""></a>
 
     <ul class="navmenu">
         <li><a href="../html/Accessories.html">Home</a></li>
@@ -151,8 +153,8 @@ if (isset($_POST['checkout'])) {
                 <h3>Total: RM <?php echo number_format(getTotal(), 2); ?></h3>
             </div>
 
-            <form action="cart.php" method="POST">
-                <button type="submit" name="checkout" class="btn checkout-btn">Checkout</button>
+            <form action="../html/checkouttest.php" method="GET">
+                <button type="submit" class="btn checkout-btn">Checkout</button>
             </form>
         <?php else: ?>
             <p class="empty-cart">Your cart is empty!</p>
@@ -161,9 +163,34 @@ if (isset($_POST['checkout'])) {
     </div>
 </section>
 
-<footer>
-    Developed by <b>"Placeholder"</b> · Copyrighted © 2025
-</footer>
+<footer class="site-footer">
+        <div class="footer-container">
+          <div class="footer-column">
+            <h4>About Us</h4>
+            <p>Your go-to destination for trendy accessories and fashion essentials.</p>
+          </div>
+          <div class="footer-column">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="../html/Accessories.html">Home</a></li>
+              <li><a href="../html/Accessories.html">Products</a></li>
+              <li><a href="../html/AboutUs.html">About Us</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h4>Follow Us</h4>
+            <div class="social-icons">
+              <a href="#"><i class='bx bxl-facebook'></i></a>
+              <a href="#"><i class='bx bxl-instagram'></i></a>
+              <a href="#"><i class='bx bxl-twitter'></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 Accesora. All rights reserved.</p>
+        </div>
+      </footer>
+
 
 </body>
 </html>

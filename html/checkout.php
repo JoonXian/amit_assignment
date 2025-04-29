@@ -17,7 +17,7 @@ if (isset($_POST['checkout']) && !empty($_SESSION['cart'])) {
     // Clear cart after checkout
     $_SESSION['cart'] = [];
     echo "<h2>Thank you for your order! 🎉</h2>";
-    echo '<a href="Accessories.php">Return to Shop</a>';
+    echo '<a href="../html/Accessories.php">Return to Shop</a>';
 } else {
     echo "Nothing to checkout.";
 }

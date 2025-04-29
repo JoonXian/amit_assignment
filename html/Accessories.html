@@ -15,23 +15,24 @@
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    
 </head>
 
 <body>
 
     <header>
-        <a href="#" class="logo"><img src="../img/logo.png" alt=""></a>
+        <a href="#" class="logo"><img src="../img/logo3.png" alt=""></a>
 
         <ul class="navmenu">
             <li><a href="../html/Accessories.html">Home</a></li>
-            <li><a href="#">Shop</a></li>
-            <li><a href="#">Products</a></li>
+            <li><a href="../html/Accessories.html">Products</a></li>
             <li><a href="../html/AboutUs.html">About Us</a></li>
+            <li><a href="../html/account.php">Login</a></li>
         </ul>
 
         <div class="navicon">
             <a href="#"><i class='bx bx-search'></i></a>
-            <a href="../html/account.php"><i class='bx bx-user'></i></a>
+            <a href="../php/admintest.php"><i class='bx bx-user'></i></a>
             <a href="../php/cart.php"><i class='bx bx-cart'></i></a>
             <a href="../html/account.php" class="btn logout-btn">Logout</a>
         </div>
@@ -224,16 +225,83 @@
 
             </div>
 
-            
-      
+           <!-- Example Product 9 -->
+            <div class="row">
+                <img src="../img/keychain.png" alt="">
+                <div class="product-text">
+                    <h5>Hot</h5>
+                </div>
+                <div class="rating">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                </div>
+
+                <div class="price">
+                    <h4>Bunny Keychain</h4>
+                    <p>RM69.99</p>
+                    <button class="btn"><a href="../php/cart.php?action=add&id=9&price=69.99">Add to Cart</a></button>
+                </div>
+
+            </div>
+
+            <!-- Example Product 10 -->
+            <div class="row">
+                <img src="../img/earrings.png" alt="">
+                <div class="product-text">
+                    <h5>New</h5>
+                </div>
+                <div class="rating">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                </div>
+
+                <div class="price">
+                    <h4>Earrings Set</h4>
+                    <p>RM59.99</p>
+                    <button class="btn"><a href="../php/cart.php?action=add&id=10&price=59.99">Add to Cart</a></button>
+                </div>
+
+            </div>
         </div>
 
     </section>
 
-    <footer>
-        Developed by <b>"Placeholder"</b>
-        · Copyrighted © 2025
-    </footer>
+    <footer class="site-footer">
+        <div class="footer-container">
+          <div class="footer-column">
+            <h4>About Us</h4>
+            <p>Your go-to destination for trendy accessories and fashion essentials.</p>
+          </div>
+          <div class="footer-column">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="../html/Accessories.html">Home</a></li>
+              <li><a href="../html/Accessories.html">Products</a></li>
+              <li><a href="../html/AboutUs.html">About Us</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h4>Follow Us</h4>
+            <div class="social-icons">
+              <a href="#"><i class='bx bxl-facebook'></i></a>
+              <a href="#"><i class='bx bxl-instagram'></i></a>
+              <a href="#"><i class='bx bxl-twitter'></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 Accesora. All rights reserved.</p>
+        </div>
+      </footer>
+      
+
+    <script src="../javascript/java.js"></script>
 
 </body>
 

@@ -1,4 +1,5 @@
-ol, ul {
+ol,
+ul {
     list-style: none;
 }
 
@@ -22,10 +23,6 @@ header {
     padding: 20px 10%;
 }
 
-.footer {
-    padding: 10px 50px;
-    background: grey;
-}
 
 .logo img {
     max-width: 120px;
@@ -70,7 +67,8 @@ header {
 .logout-btn {
     padding: 10px 20px;
     font-size: 16px;
-    background-color: #f44336; /* red color for logout */
+    background-color: #f44336;
+    /* red color for logout */
     color: #fff;
     border: none;
     border-radius: 25px;
@@ -179,28 +177,28 @@ header.sticky {
     color: #ee1c47
 }
 
-.products{
+.products {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(260px, auto));
     gap: 2rem;
-}  
+}
 
-.row{
+.row {
     position: relative;
     transition: all .40s;
 }
 
-.row img{
+.row img {
     width: 100%;
     height: auto;
     transition: all .40s;
 }
 
-.row img:hover{
+.row img:hover {
     transform: scale(0.9);
 }
 
-.product-text h5{
+.product-text h5 {
     position: absolute;
     top: 13px;
     left: 13px;
@@ -228,10 +226,67 @@ header.sticky {
     background-color: #0056b3;
 }
 
-.footer {
-    background-color: #fff;
-    color: #333;
+.site-footer {
+    background-color: #222;
+    color: #fff;
+    padding: 40px 20px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-column {
+    flex: 1 1 250px;
+    margin: 20px;
+}
+
+.footer-column h4 {
+    margin-bottom: 15px;
+    font-size: 18px;
+    border-bottom: 2px solid #555;
+    padding-bottom: 5px;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+    color: #ccc;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-column ul li a:hover {
+    color: #fff;
+}
+
+.social-icons a {
+    color: #ccc;
+    margin-right: 15px;
+    font-size: 20px;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #fff;
+}
+
+.footer-bottom {
     text-align: center;
-    padding: 20px 0;
-    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #444;
+    font-size: 14px;
+    color: #aaa;
 }
